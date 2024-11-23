@@ -1,0 +1,32 @@
+
+.toggle-btn {
+  width: 80px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-bottom: 3px;
+}
+
+.toggle-btn .thumb {
+  width: 26px;
+  height: 26px;
+  background-color: #868688;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.toggled {
+  background-color: #00ee00;
+}
+
+.toggle-btn.toggled .thumb {
+  background-color: #fff;
+  left: 47px;
+}
